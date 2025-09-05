@@ -7,7 +7,8 @@ OWNER = "gopi-swathi"
 REPO = "my_project"
 PATH_IN_REPO = "data_emails.csv"
 BRANCH = "main"
-TOKEN = ""
+TOKEN = "
+TOKEN = os.getenv("GITHUB_TOKEN")"
 COMMIT_MSG = "Add or update emails.csv via script"
 
 CONTENT = """sender,subject,body,sent_date
@@ -56,3 +57,4 @@ def create_or_update_file():
 
 if __name__ == "__main__":
     create_or_update_file()
+
