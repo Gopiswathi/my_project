@@ -1,6 +1,4 @@
 # my_project
-# My Project
-
 ## Project Description
 This repository contains a CSV file `data/emails.csv` that stores email records for support and subscription queries. The CSV file can be updated manually on GitHub or automatically using a Python script via the GitHub API.
 
